@@ -1,0 +1,199 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+div#conteneur
+{
+	display: flex;
+	justify-content: flex-end;
+	font-family: Tahoma;
+	font-size: 12px;
+	margin-top: 25px;
+}
+div.place{
+	margin-top: 5px;
+}
+div.haut
+{
+	margin-right: 2%;
+	text-align: center;
+}
+a.liens:hover{
+	text-decoration: underline;
+	color: black;
+}
+a.liens
+{
+	color: black;
+	/*margin-top: 25px;*/
+	letter-spacing: .05rem;
+	
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+img#loupe
+{
+	width: 20px;
+	height: 20px;
+	margin-bottom: 8px;
+	margin-left: 5px;
+}
+a#gmail
+{
+	margin-top: 25px;
+	margin-left: 3px;
+}
+a#connexion
+{
+	
+	border: 0;
+    line-height: 2.0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    border-radius:3px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #1E90FF;
+}
+a#connexion:active
+{
+	text-decoration: none;
+	background-color: #1E91FF
+}
+div#google
+{
+
+	display: flex;
+	justify-content: space-around;
+	/*justify-content: center;*/
+	flex-direction: column;
+	
+	align-items: center;
+	margin-top: 140px;
+	/*color: transparent;*/
+	
+}
+a.search
+{
+	margin-top: 30px;
+	font-family:Tahoma;
+	border: 0;
+    line-height: 2.0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    border-radius:3px;
+    color: #808080;
+    font-size: 14px;
+    background-color: #F6F6F5;
+    margin-left: 7px;
+
+}
+input#formulaire
+{
+	margin-right: 5px;
+  	border-style: none;
+  	width: 540px;
+  	height: 40px;
+  	border-radius: 20px;
+  	outline: none;
+  	font-size: 40px;
+
+}
+input#formulaire:active
+{
+	outline: none;
+	border-style: none;
+	border: 0;
+}
+div#recherche
+{
+	margin-right: 5px;
+	margin-left: 4px;
+	border-radius: 70px;
+	padding: -40px;
+	border-color: #ECECEC;
+	border-width:1px;
+	border-style: solid;
+	
+}
+
+div#btns
+{
+	display:flex;
+	justify-content: center;
+}
+a.search:hover
+{
+	color: black;
+	border-color: #E0E0E0;
+	border: 1px solid;
+}
+footer#footer0
+{
+	background-color: #F1F1F1;
+	font-family: arial;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 13px;
+	border-top-color: #E0E0E0;
+	border-top-width: 1px;
+	border-top-style: solid;
+	
+}
+div#france
+{
+	
+	height:10px;
+	color: #6F6F6F;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 100%;
+	margin-left: 25px;
+	font-size: 15px;
+}
+div#total1
+{
+	margin-top: 10px;
+	background-color:#F8F8F8;
+	border-top-color: #E0E0E0;
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+div#footer1
+{
+	display: flex;
+	justify-content: flex-start;
+	margin-right: 9px;
+	margin-top: 10px;
+}
+
+div.item
+{
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+div#conso
+{
+	margin-left: 500px;
+}
+a.item:hover{
+	text-decoration: underline;
+	color: #9F9E9E;
+}
+a.couleur
+{
+	color: #6F6F6F;
+}
